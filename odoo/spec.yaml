@@ -10,3 +10,6 @@ odoo:
 
 server-tools:
     src: https://github.com/OCA/server-tools 11.0
+    
+odoo-brasil:
+    src: https://github.com/Trust-Code/odoo-brasil 11.0

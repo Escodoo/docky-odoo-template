@@ -3,7 +3,7 @@ FROM camptocamp/odoo-project:12.0-latest
 RUN DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
     apt-get install -y git libxmlsec1-dev pkg-config python-dev python3-dev && \
-    apt-get install -y libxml2-dev libxslt1-dev libssl-dev libffi-dev build-ess$
+    apt-get install -y libxml2-dev libxslt1-dev libssl-dev libffi-dev build-essential && \
     apt-get clean
   
 COPY . /odoo

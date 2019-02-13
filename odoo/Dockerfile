@@ -16,4 +16,4 @@ ENV LIST_DB=True
 #ENV DEMO=False
 ENV LIMIT_TIME_CPU=60000
 ENV LIMIT_TIME_REAL=120000
-ENV ADDONS_PATH=/odoo/local-src,/odoo/src/addons,/odoo/links,/odoo/external-src/server-tools,/odoo/external-src/odoo-brasil
+ENV ADDONS_PATH=/odoo/local-src,/odoo/src/addons,/odoo/links,/odoo/external-src/server-tools,/odoo/external-src/odoo-brasil,/odoo/external-src/trustcode-addons,/odoo/external-src/escodoo-addonsl

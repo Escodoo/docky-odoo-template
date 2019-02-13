@@ -1,4 +1,5 @@
 crypto
+plotly
 pillow==3.4.2
 ofxparse==0.16
 suds-jurko-requests

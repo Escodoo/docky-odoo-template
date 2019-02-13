@@ -13,3 +13,6 @@ server-tools:
     
 odoo-brasil:
     src: https://github.com/Trust-Code/odoo-brasil 11.0
+
+trustcode-addons:
+    src: https://github.com/Trust-Code/trustcode-addons 11.0

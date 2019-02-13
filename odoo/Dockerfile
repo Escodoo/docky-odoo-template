@@ -2,13 +2,14 @@ FROM camptocamp/odoo-project:12.0-latest
 
 RUN DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
-    apt-get install -y git && \
+    apt-get install -y git libxmlsec1-dev pkg-config python-dev python3-dev && \
+    apt-get install -y libxml2-dev libxslt1-dev libssl-dev libffi-dev build-ess$
     apt-get clean
-
+  
 COPY . /odoo
-RUN pip install -r /odoo/requirements.txt
-RUN pip install -e /odoo
-RUN pip install -e /odoo/src
+RUN pip3 install -r /odoo/requirements.txt
+RUN pip3 install -e /odoo
+RUN pip3 install -e /odoo/src
 
 
 ENV LIST_DB=True

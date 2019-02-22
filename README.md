@@ -98,10 +98,11 @@ sudo pip3 install git+https://github.com/akretion/ak.git@master --upgrade
 sudo pip3 install git+https://github.com/akretion/docky.git@master --upgrade
 ```
 
-Clone o Docky v 12.0 template para criar seu primeiro projeto Docky
+Clone o Docky-Odoo v12.0 template para criar seu primeiro projeto Docky
 
 ```
 git clone -b 12.0 https://github.com/Escodoo/docky-odoo-template docky-odoo-v12-1
+
 cd docky-odoo-v12-1/odoo
 ```
 

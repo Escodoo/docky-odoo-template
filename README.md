@@ -130,6 +130,8 @@ cd docky-odoo-v12-1/odoo
 
 Corrija o AK para rodar em Python3, veja: https://github.com/akretion/ak/issues/55
 
+Altere o arquivo *usr/local/lib/python3.6/dist-packages/ak/ak_build.py* e substitua `python` por `python3` na linha 5.
+
 ```
 ak build
 cd ..

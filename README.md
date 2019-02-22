@@ -18,10 +18,10 @@ Then go to https://github.com/akretion/ak/wiki
 
 Acesse o SHELL da instalação UBUNTU em que o serviço será instalado e execute os seguintes procedimentos.
 
-`
+```
 apt-get update
 sudo apt-get install byobu
-`
+```
 
 Crie o usuário que executar o serviço
 

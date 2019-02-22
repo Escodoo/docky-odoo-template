@@ -15,6 +15,8 @@ Crie o usuário que executar o serviço
 
 ```
 adduser erp
+sudo visudo
+
 ```
 
 Adicione a linha abaixo no arquivo visudo (veja https://phpraxis.wordpress.com/2016/09/27/enable-sudo-without-password-in-ubuntudebian/)

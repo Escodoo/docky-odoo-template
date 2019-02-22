@@ -25,6 +25,7 @@ sudo visudo
 `
 
 Adicione a linha abaixo no arquivo visudo
+
 veja https://phpraxis.wordpress.com/2016/09/27/enable-sudo-without-password-in-ubuntudebian/
 
 `
@@ -40,7 +41,9 @@ byobu
 `
 
 ### Instale o Docker CE na estação onde ser instalado o serviço 
+
 Veja https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
 `
 sudo apt-get install \
     apt-transport-https \
@@ -59,11 +62,13 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 `
 
 Verifique se o Docker está operacional:
+
 `
 sudo docker run hello-world
 `
 
 Adicione o usuário ERP no grupo do Docker
+
 `
 sudo usermod -aG docker $USER
 `
@@ -76,18 +81,22 @@ log out form the erp user session with
 
 CTRL+D
 
-## -> you should be root now!
+### -> you should be root now!
 ### log in a the erp user
+
 `
 su erp
 byobu
 `
-## you should now be able to run docker as the erp user. Check it with:
+
+### You should now be able to run docker as the erp user. Check it with:
+
 `
 docker run hello-world
 `
 
-## install ak and Docky Akretion devops tools:
+### Install ak and Docky Akretion devops tools:
+
 `
 sudo apt-get install python3-pip
 sudo pip3 install git+https://github.com/akretion/ak.git@master --upgrade
@@ -109,17 +118,21 @@ docky build
 `
 
 ## enter the Docky container and run the Odoo service:
+
 `
 docky run
 odoo -d db -i crm
 `
+
 # Setup Nginx
 set up Nginx to access from outside of the serveur:
 open a new byobu tab using SHIFT+F2
 you can then switch tab using SHIFT+F3 and SHIFT+F4
+
 `
 sudo apt-get install nginx
 `
+
 ## set up some default nginx config for your Docky container
 `
 sudo wget https://gist.githubusercontent.com/rvalyi/10f0770a49b626f40a2c1910374dc70d/raw/457baa90cb0321d95af14437013286a36ba85f5c/nginx-odoo -O /etc/nginx/sites-enabled/erp

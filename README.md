@@ -2,7 +2,10 @@
 
 Primeiro clone este projeto
 
-`git clone https://github.com/Escodoo/docky-odoo-template.git`
+```
+git clone https://github.com/Escodoo/docky-odoo-template.git`
+
+```
 
 Define your repository as virtual environement
 

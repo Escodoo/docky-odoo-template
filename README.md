@@ -45,6 +45,7 @@ su erp
 byobu
 ```
 
+#### Instalação Docker CE
 Instale o Docker CE na estação onde ser instalado o serviço (Veja https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
 ```
@@ -98,7 +99,7 @@ You should now be able to run docker as the erp user. Check it with:
 docker run hello-world
 ```
 
-Install ak and Docky Akretion devops tools:
+#### Install ak and Docky Akretion devops tools:
 
 ```
 sudo apt-get install python3-pip
@@ -128,7 +129,7 @@ docky run
 odoo -d db -i crm
 ```
 
-## Setup Nginx
+### Setup Nginx
 set up Nginx to access from outside of the serveur:
 open a new byobu tab using SHIFT+F2
 you can then switch tab using SHIFT+F3 and SHIFT+F4
@@ -143,14 +144,14 @@ sudo apt-get install nginx
 sudo wget https://gist.githubusercontent.com/rvalyi/10f0770a49b626f40a2c1910374dc70d/raw/457baa90cb0321d95af14437013286a36ba85f5c/nginx-odoo -O /etc/nginx/sites-enabled/erp
 ```
 
-### reload nginx
+#### reload nginx
 
 YOU CAN NOW ACCESS YOUR ODOO SERVER BY BROWSING THE IP OF YOUR SERVER
 USING HTTP (NOT HTTPS, PORT IS 80)
 
 WARNING: password for the db database is admin/admin
 
-### FOR PRODUCTION USE HTTPS AND USE THE docky up instead!!
+#### FOR PRODUCTION USE HTTPS AND USE THE docky up instead!!
 
 ```
 sudo /etc/init.d/nginx reload

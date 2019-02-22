@@ -1,10 +1,5 @@
 # Template Docky Odoo com módulos de localização brasileira.
 
-Defina seu repositório como ambiente virtual
-
-Então vá para https://github.com/akretion/ak/wiki
-
-
 ##  Instalação ODOO+DOCKY no UBUNTU 18.04 LTS BIONIC
 
 ### Preparando o servidor

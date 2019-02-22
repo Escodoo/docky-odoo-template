@@ -14,18 +14,21 @@ Then go to https://github.com/akretion/ak/wiki
 apt-get update
 
 ## Add erp user:
+`
 adduser erp
 sudo visudo
+`
 
 ## add line:
 erp      ALL=(ALL) NOPASSWD:ALL
 # see https://phpraxis.wordpress.com/2016/09/27/enable-sudo-without-password-in-ubuntudebian/
 
 ## switch to erp user and use byobu
-su erp
+
+`su erp
 sudo apt-get install byobu
 byobu
-
+`
 
 ## install Docker CE ( see https://docs.docker.com/install/linux/docker-ce/ubuntu/ )
 sudo apt-get install \

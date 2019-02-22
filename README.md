@@ -159,7 +159,7 @@ sudo apt-get install nginx
 ```
 sudo wget https://gist.githubusercontent.com/rvalyi/10f0770a49b626f40a2c1910374dc70d/raw/457baa90cb0321d95af14437013286a36ba85f5c/nginx-odoo -O /etc/nginx/sites-enabled/erp
 
-sudo systemctl reload nginx reload
+sudo systemctl reload nginx
 ```
 
 VOCÊ PODE AGORA ACESSAR SEU SERVIDOR ODOO AO NAVEGAR NO IP DO SEU SERVIDOR

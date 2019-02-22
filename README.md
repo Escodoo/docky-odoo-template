@@ -2,7 +2,7 @@
 
 Primeiro clone este projeto
 
-```
+```shell
 git clone https://github.com/Escodoo/docky-odoo-template.git`
 
 ```

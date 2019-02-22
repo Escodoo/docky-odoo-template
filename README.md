@@ -1,12 +1,5 @@
 # Template Docky Odoo com módulos de localização brasileira.
 
-Clone este projeto!
-
-```shell
-git clone https://github.com/Escodoo/docky-odoo-template.git`
-
-```
-
 Defina seu repositório como ambiente virtual
 
 Então vá para https://github.com/akretion/ak/wiki

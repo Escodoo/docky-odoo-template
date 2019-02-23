@@ -18,4 +18,4 @@ trustcode-addons:
     src: https://github.com/Trust-Code/trustcode-addons 11.0
     
 escodoo-addons: 
-    src: https://github.com/Escodoo/escodoo-addons 11.0
+    src: https://github.com/Escodoo/escodoo-addons 11.0-helpdesk

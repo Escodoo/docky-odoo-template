@@ -12,7 +12,7 @@ server-tools:
     src: https://github.com/OCA/server-tools 11.0
     
 odoo-brasil:
-    src: https://github.com/Trust-Code/odoo-brasil 11.0
+    src: https://github.com/Escodoo/odoo-brasil 11.0
 
 trustcode-addons:
     src: https://github.com/Trust-Code/trustcode-addons 11.0
